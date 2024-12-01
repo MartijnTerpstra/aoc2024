@@ -13,3 +13,5 @@ macro(add_advent DAY)
     target_compile_options("day${DAY}"
         PUBLIC -fconstexpr-steps=111271242)
 endmacro(add_advent)
+
+add_advent(01)
